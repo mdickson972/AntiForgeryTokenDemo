@@ -1,0 +1,20 @@
+﻿@{
+    ViewData["Title"] = "Get Cookie Token";
+}
+
+<section>
+
+    <div class="page-header text-center">
+        <h3 id="cookiePresenceHeader"></h3>
+    </div>
+
+    <div class="text-center">
+        <a class="btn btn-default" asp-action="Generate">Generate Cookie token</a>
+        <button id="test" class="btn btn-default">Test Cookie token</button>
+    </div>
+
+</section>
+
+@section Scripts {
+    <script type="text/javascript" src="~/js/cookie.js"></script>
+}
